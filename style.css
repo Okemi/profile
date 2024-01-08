@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body{
+  background-color: #e5ddec;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(26, 25, 25);
+  font: 30px;;
+  line-height: 1.4;
+}
+
+#logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.card-container {
+  margin: 0 auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.card {
+  background-color: rgb(237, 222, 232);
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin: 20px auto;
+  width: 35%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+h1,h2,h3 {
+  font-family: 'Open Sans', sans-serif;
+  color: #646770;
+  font-size: 30px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h2 {
+  color: #646770;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+h3 {
+  color: #81ba92f0;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+p {
+  color: #19191a;
+  font-size: 18px;
+  line-height: 1.9;
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(248, 247, 244);
+  background-color: rgb(77, 147, 216);
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+a:hover {
+  color: #A36060;
+}
+
+
+li {
+  list-style-type: none;
+  padding: 5px;
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.icons {
+  display: flex
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
